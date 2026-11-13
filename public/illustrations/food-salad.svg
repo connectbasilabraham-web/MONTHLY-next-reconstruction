@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 150" fill="none">
+  <defs>
+    <linearGradient id="bowl" x1="52" y1="81" x2="165" y2="137" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FFF7"/>
+      <stop offset=".48" stop-color="#D9EFD9"/>
+      <stop offset="1" stop-color="#A9D4AE"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="76" y1="47" x2="102" y2="91" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C2E98C"/>
+      <stop offset="1" stop-color="#68B85F"/>
+    </linearGradient>
+    <linearGradient id="leafDeep" x1="125" y1="45" x2="145" y2="91" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A8D96D"/>
+      <stop offset="1" stop-color="#429B54"/>
+    </linearGradient>
+    <radialGradient id="tomato" cx="0" cy="0" r="1" gradientTransform="matrix(14 16 -16 14 92 62)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9B70"/>
+      <stop offset="1" stop-color="#E95E45"/>
+    </radialGradient>
+    <clipPath id="salad">
+      <ellipse cx="110" cy="73" rx="76" ry="28"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="112" cy="136" rx="67" ry="7" fill="#326D42" opacity=".12"/>
+  <path d="M32 73c8 35 37 59 78 62 40 2 72-21 82-62-31 13-129 14-160 0Z" fill="url(#bowl)" stroke="#B5D9BB" stroke-width="2"/>
+  <path d="M50 91c15 22 36 33 61 34 25 0 47-11 62-33-36 11-87 11-123-1Z" fill="#fff" opacity=".35"/>
+  <g clip-path="url(#salad)">
+    <ellipse cx="110" cy="73" rx="76" ry="28" fill="#E8F4D8"/>
+    <path d="M41 78c4-17 13-28 29-34 2 15-3 27-16 37L41 78Z" fill="url(#leafDeep)"/>
+    <path d="M55 75c5-20 18-34 36-39 1 20-7 34-23 45l-13-6Z" fill="url(#leaf)"/>
+    <path d="M80 77c-2-22 8-39 26-48 8 19 5 35-8 49l-18-1Z" fill="#7DC66B"/>
+    <path d="M103 76c2-20 13-36 31-42 6 19 1 35-13 48l-18-6Z" fill="url(#leafDeep)"/>
+    <path d="M126 78c5-18 17-31 34-35 3 17-4 31-19 42l-15-7Z" fill="url(#leaf)"/>
+    <path d="M148 80c7-15 18-23 32-25 1 14-6 26-19 34l-13-9Z" fill="#55A95C"/>
+    <path d="M68 79c10-9 17-20 21-33M96 78c4-13 4-25 1-37M123 79c7-13 10-25 8-38M151 80c9-7 16-16 20-26" stroke="#E4F6B1" stroke-linecap="round" stroke-width="2" opacity=".75"/>
+    <circle cx="87" cy="68" r="10" fill="url(#tomato)"/>
+    <circle cx="121" cy="58" r="9" fill="url(#tomato)"/>
+    <circle cx="145" cy="73" r="10" fill="url(#tomato)"/>
+    <circle cx="84" cy="65" r="2" fill="#FFD4A0" opacity=".9"/>
+    <circle cx="118" cy="55" r="2" fill="#FFD4A0" opacity=".9"/>
+    <circle cx="142" cy="70" r="2" fill="#FFD4A0" opacity=".9"/>
+  </g>
+  <ellipse cx="110" cy="73" rx="77" ry="29" stroke="#F9FFF9" stroke-width="5"/>
+  <path d="M43 83c17 10 43 15 68 15 26 0 50-5 67-15" stroke="#fff" stroke-linecap="round" stroke-width="2" opacity=".65"/>
+</svg>

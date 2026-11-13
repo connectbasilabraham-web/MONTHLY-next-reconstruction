@@ -1,0 +1,1 @@
+import'./globals.css';import{Store}from'@/components/Store';import Shell from'@/components/Shell';export const metadata={title:'MONTHLY — Personal Finance',description:'Your monthly money, clearly.'};export default function Root({children}:{children:React.ReactNode}){return <html lang="en" suppressHydrationWarning><body><Store><Shell>{children}</Shell></Store></body></html>}
